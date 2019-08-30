@@ -6,6 +6,7 @@ import androidx.fragment.app.FragmentTransaction;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -27,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 FragmentTransaction fl=getSupportFragmentManager().beginTransaction();
 
+                Toast.makeText(getApplicationContext(),"fragment",Toast.LENGTH_SHORT).show();
+
                 fl.replace(R.id.fragment,new myfrag1());
                 fl.commit();
                 imgnum=1;
@@ -37,6 +40,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 FragmentTransaction fl=getSupportFragmentManager().beginTransaction();
+
+                Toast.makeText(getApplicationContext(),"fragment",Toast.LENGTH_SHORT).show();
 
                 fl.replace(R.id.fragment,new myfrag1());
                 fl.commit();
@@ -49,6 +54,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 FragmentTransaction fl=getSupportFragmentManager().beginTransaction();
 
+                Toast.makeText(getApplicationContext(),"fragment",Toast.LENGTH_SHORT).show();
+
                 fl.replace(R.id.fragment,new myfrag1());
                 fl.commit();
                 imgnum=3;
@@ -59,6 +66,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 FragmentTransaction fl=getSupportFragmentManager().beginTransaction();
+
+                Toast.makeText(getApplicationContext(),"fragment",Toast.LENGTH_SHORT).show();
 
                 fl.replace(R.id.fragment,new myfrag1());
                 fl.commit();

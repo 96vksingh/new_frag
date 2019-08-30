@@ -10,6 +10,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 
 /**
@@ -43,6 +44,7 @@ public class myfrag1 extends Fragment {
                 public void onClick(View view) {
 
                     i.setVisibility(View.INVISIBLE);
+                    Toast.makeText(getContext(),"here",Toast.LENGTH_SHORT).show();
 
                 }
             });
@@ -56,7 +58,7 @@ public class myfrag1 extends Fragment {
                 public void onClick(View view) {
 
                     i.setVisibility(View.INVISIBLE);
-
+                    Toast.makeText(getContext(),"here",Toast.LENGTH_SHORT).show();
                 }
             });
 
@@ -72,7 +74,7 @@ public class myfrag1 extends Fragment {
                 public void onClick(View view) {
 
                     i.setVisibility(View.INVISIBLE);
-
+                    Toast.makeText(getContext(),"here",Toast.LENGTH_SHORT).show();
                 }
             });
 
@@ -85,7 +87,7 @@ public class myfrag1 extends Fragment {
                 public void onClick(View view) {
 
                     i.setVisibility(View.INVISIBLE);
-
+                    Toast.makeText(getContext(),"here",Toast.LENGTH_SHORT).show();
                 }
             });
 
